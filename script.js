@@ -41,11 +41,11 @@ function getFullAddress(address) {
 }
 
 function setLoading(active) {
-  const loadingText = document.getElementById('loading');
+  const loading = document.getElementById('loading');
 
   if (active) {
-    loadingText.style.display = 'block'
+    loading.style.display = 'block'
   } else {
-    loadingText.style.display = 'none'
+    loading.style.display = 'none'
   }
 }
